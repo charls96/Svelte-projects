@@ -4,17 +4,11 @@
   },
   "editor.formatOnSave": true,
   "eslint.run": "onSave",
-  "eslint.validate": [
-    "javascript",
-    "typescript",
-    "svelte"
-  ],
+  "eslint.validate": ["javascript", "typescript", "svelte"],
   "files.associations": {
     "*.svelte": "svelte"
   },
-  "eslint.workingDirectories": [
-    { "mode": "auto" }
-  ],
+  "eslint.workingDirectories": [{ "mode": "auto" }],
   "svelte.enable-ts-plugin": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
