@@ -1,14 +1,3 @@
 # AGENTS.md
 
-You are an expert in TypeScript, Svelte, Tailwind, Rsbuild, Eslint, prettier and web application development. You write maintainable, performant, and accessible code.
-
-## Commands
-
-- `pnpm run dev` - Start the dev server
-- `pnpm run build` - Build the app for production
-- `pnpm run preview` - Preview the production build locally
-
-## Docs
-
-- Rsbuild: https://rsbuild.rs/llms.txt
-- Rspack: https://rspack.rs/llms.txt
+You are an expert in TypeScript, Svelte, Tailwind, Rsbuild, Eslint, Prettier, Vitest, Playwright and web application development. You write maintainable, performant, and accessible code.

@@ -9,7 +9,9 @@
     "format": "prettier --write .",
     "preview": "rsbuild preview",
     "svelte-check": "svelte-check --tsconfig ./tsconfig.json",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test:unit": "vitest",
+    "test": "pnpm run test:unit -- --run"
   },
   "dependencies": {
     "svelte": "5.43.6"
@@ -19,15 +21,20 @@
     "@eslint/js": "9.38.0",
     "@rsbuild/core": "1.6.4",
     "@rsbuild/plugin-svelte": "1.0.11",
+    "@sveltejs/vite-plugin-svelte": "^6.2.1",
     "@tailwindcss/postcss": "4.1.17",
     "@types/node": "22",
+    "@vitest/browser-playwright": "4.0.5",
     "eslint": "9.38.0",
     "eslint-plugin-svelte": "3.12.4",
     "globals": "16.4.0",
+    "playwright": "1.56.1",
     "prettier": "3.6.2",
     "svelte-check": "4.3.4",
     "tailwindcss": "4.1.17",
     "typescript": "5.9.3",
-    "typescript-eslint": "8.46.1"
+    "typescript-eslint": "8.46.1",
+    "vitest": "4.0.5",
+    "vitest-browser-svelte": "2.0.1"
   }
 }

@@ -9,6 +9,8 @@ Svelte init setup.
 - Tailwind CSS
 - TypeScript
 - ESLint & Prettier
+- Vitest
+- Playwright
 - pnpm
 
 ## Project Layout (important files)
@@ -17,3 +19,4 @@ Svelte init setup.
 - `rsbuild.config.ts` — build configuration
 - `postcss.config.mjs` — PostCSS config (Tailwind integration)
 - `index.css` — global styles
+- `vitest.config.ts` — Test framework config file
