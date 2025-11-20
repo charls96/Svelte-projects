@@ -1,5 +1,6 @@
 import { defineConfig } from "vitest/config";
 import { playwright } from "@vitest/browser-playwright";
+import { resolve } from "node:path";
 import { svelte } from "@sveltejs/vite-plugin-svelte";
 
 export default defineConfig({
@@ -30,5 +31,10 @@ export default defineConfig({
         },
       },
     ],
+  },
+  resolve: {
+    alias: {
+      "@": resolve(__dirname, "./src"),
+    },
   },
 });
