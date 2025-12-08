@@ -1,0 +1,15 @@
+{
+	"servers": {
+		"Context7": {
+			"type": "stdio",
+			"command": "pnpm",
+			"args": [
+				"dlx",
+				"@upstash/context7-mcp",
+				"--api-key",
+				"YOUR_API_KEY"
+			]
+		}
+	},
+	"inputs": []
+}

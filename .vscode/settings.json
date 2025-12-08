@@ -19,5 +19,6 @@
   },
   "[svelte]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "github.copilot.chat.newWorkspace.useContext7": true
 }
